@@ -1,0 +1,237 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   E-commerce Landing Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-lg">
+   <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between">
+     <div class="flex space-x-7">
+      <div>
+       <a class="flex items-center py-4 px-2" href="#">
+        <img alt="Company Logo" class="h-8 w-8 mr-2" height="50" src="https://storage.googleapis.com/a1aa/image/OBYxKz2VarIM9k-WNZTAWteVcuPYsk2qoslN5ltuMOE.jpg" width="50"/>
+        <span class="font-semibold text-gray-500 text-lg">
+         E-Shop
+        </span>
+       </a>
+      </div>
+      <div class="hidden md:flex items-center space-x-1">
+       <a class="py-4 px-2 text-gray-500 border-b-4 border-blue-500 font-semibold" href="#">
+        Home
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300" href="#">
+        Shop
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300" href="#">
+        About
+       </a>
+       <a class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300" href="#">
+        Contact
+       </a>
+      </div>
+     </div>
+     <div class="hidden md:flex items-center space-x-3">
+      <a class="py-2 px-2 font-medium text-gray-500 rounded hover:bg-gray-200 transition duration-300" href="#">
+       Log In
+      </a>
+      <a class="py-2 px-2 font-medium text-white bg-blue-500 rounded hover:bg-blue-400 transition duration-300" href="#">
+       Sign Up
+      </a>
+     </div>
+     <div class="md:hidden flex items-center">
+      <button class="outline-none mobile-menu-button">
+       <i class="fas fa-bars">
+       </i>
+      </button>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <!-- Mobile Menu -->
+  <div class="hidden mobile-menu">
+   <ul class="">
+    <li>
+     <a class="block text-sm px-2 py-4 text-white bg-blue-500 font-semibold" href="#">
+      Home
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300" href="#">
+      Shop
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300" href="#">
+      About
+     </a>
+    </li>
+    <li>
+     <a class="block text-sm px-2 py-4 hover:bg-blue-500 transition duration-300" href="#">
+      Contact
+     </a>
+    </li>
+   </ul>
+  </div>
+  <!-- Hero Section -->
+  <div class="bg-white py-20">
+   <div class="max-w-6xl mx-auto px-4 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold text-gray-800">
+     Welcome to E-Shop
+    </h1>
+    <p class="mt-4 text-gray-600">
+     Discover the best products at unbeatable prices
+    </p>
+    <a class="mt-8 inline-block bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm hover:bg-blue-400 transition duration-300" href="#">
+     Shop Now
+    </a>
+   </div>
+  </div>
+  <!-- Featured Products -->
+  <div class="max-w-6xl mx-auto px-4 py-16">
+   <h2 class="text-3xl font-bold text-gray-800 text-center">
+    Featured Products
+   </h2>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Product 1 - A stylish modern chair" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/TDCcknXqr76fmLDHxdFJZJoKhXstSerFLp_787q7lWg.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-semibold text-gray-800">
+       Modern Chair
+      </h3>
+      <p class="text-gray-600 mt-2">
+       ₹1200
+      </p>
+      <a class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm hover:bg-blue-400 transition duration-300" href="#">
+       Add to Cart
+      </a>
+     </div>
+    </div>
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Product 2 - A sleek and modern desk lamp" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/zYDIb8MZKN3_bdotYsNDiQrOUo6zfSQDJZFwA8oPgVs.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-semibold text-gray-800">
+       Desk Lamp
+      </h3>
+      <p class="text-gray-600 mt-2">
+       ₹950
+      </p>
+      <a class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm hover:bg-blue-400 transition duration-300" href="#">
+       Add to Cart
+      </a>
+     </div>
+    </div>
+    <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+     <img alt="Product 3 - A comfortable and ergonomic office chair" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/mDACy-Kv1SyxzxEJzBKy0P1gjpbUIpJFlSgEOpMCx2E.jpg" width="400"/>
+     <div class="p-4">
+      <h3 class="text-lg font-semibold text-gray-800">
+       Office Chair
+      </h3>
+      <p class="text-gray-600 mt-2">
+       ₹1500
+      </p>
+      <a class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm hover:bg-blue-400 transition duration-300" href="#">
+       Add to Cart
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Testimonials -->
+  <div class="bg-gray-100 py-16">
+   <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-800 text-center">
+     What Our Customers Say
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+     <div class="bg-white shadow-lg rounded-lg p-6">
+      <img alt="Customer 1 - A happy customer smiling" class="w-16 h-16 rounded-full mx-auto" height="100" src="https://assets.vogue.in/photos/6151b3fe401a02ddb0707fd9/2:3/w_2560%2Cc_limit/Ranbir-Kapoor1.jpeg" width="100"/>
+      <p class="text-gray-600 mt-4">
+       "E-Shop has the best products and amazing customer service. Highly recommend!"
+      </p>
+      <p class="text-gray-800 font-semibold mt-2">
+       - Ranbir Kapoor
+      </p>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg p-6">
+      <img alt="Customer 2 - A satisfied customer giving a thumbs up" class="w-16 h-16 rounded-full mx-auto" height="100" src="https://media.vogue.in/wp-content/uploads/2021/05/Alia-Bhatt-in-a-black-sequin-dress.jpeg" width="100"/>
+      <p class="text-gray-600 mt-4">
+       "I love shopping at E-Shop. They always have what I need at great prices."
+      </p>
+      <p class="text-gray-800 font-semibold mt-2">
+       - Alia Bhatt
+      </p>
+     </div>
+     <div class="bg-white shadow-lg rounded-lg p-6">
+      <img alt="Customer 3 - A delighted customer holding a shopping bag" class="w-16 h-16 rounded-full mx-auto" height="100" src="https://biographywiki.net/wp-content/uploads/2020/01/bollywood-actor-shah-rukh-khan-in-melbourne-sydney-in-stylish-look-e1577986414831.jpg" width="100"/>
+      <p class="text-gray-600 mt-4">
+       "Fast shipping and excellent quality. E-Shop is my go-to online store."
+      </p>
+      <p class="text-gray-800 font-semibold mt-2">
+       - Shah Rukh Khan
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-8">
+   <div class="max-w-6xl mx-auto px-4">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+     <div class="text-white text-center md:text-left">
+      <h3 class="text-lg font-semibold">
+       E-Shop
+      </h3>
+      <p class="mt-2">
+       Your one-stop shop for all your needs
+      </p>
+     </div>
+     <div class="flex space-x-4 mt-4 md:mt-0">
+      <a class="text-white hover:text-gray-400" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="text-white hover:text-gray-400" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="text-white hover:text-gray-400" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="text-white hover:text-gray-400" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+    <div class="text-center text-gray-400 mt-4">
+     <p>
+      © 2023 E-Shop. All rights reserved.
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+      </script>
+    </body>
+  </html>
